@@ -1,0 +1,192 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Baleni
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   @import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+    .font-baleni {
+      font-family: 'Rubik Moonrocks', cursive;
+    }
+  </style>
+ </head>
+ <body class="bg-white min-h-screen flex flex-col justify-between">
+  <div class="relative bg-gradient-to-b from-[#6B4B3B] to-[#4B2F1F] pt-20 pb-8 rounded-b-3xl shadow-lg ">
+   <div class="max-w-md mx-auto px-6">
+    <div class="flex items-center justify-between">
+     <div>
+      <h1 class="font-baleni text-4xl text-[#E6D4C6] leading-none select-none">
+       BA
+       <br/>
+       leni
+      </h1>
+      <p class="text-[#E6D4C6] font-semibold text-lg -mt-1 select-none">
+       Selamat siang
+       <br/>
+       User
+      </p>
+     </div>
+     <div class="flex space-x-4">
+      <button aria-label="Notifications" class="relative bg-[#4B2F1F]/70 p-3 rounded-full text-[#E6D4C6] flex flex-col items-center text-xs font-semibold select-none">
+       <i class="fas fa-bell text-xl">
+       </i>
+       <span class="mt-1">
+        Pusat
+       </span>
+       <span>
+        Bantuan
+       </span>
+      </button>
+      <button aria-label="Help Center" class="relative bg-[#4B2F1F]/70 p-3 rounded-full text-[#E6D4C6] flex flex-col items-center text-xs font-semibold select-none">
+       <i class="fas fa-headset text-xl">
+       </i>
+       <span class="mt-1">
+        Pusat
+       </span>
+       <span>
+        Bantuan
+       </span>
+      </button>
+     </div>
+    </div>
+    <div class="mt-6 bg-[#7A5B4A] rounded-xl p-6 text-[#E6D4C6] font-semibold select-none" style="font-feature-settings: 'liga' off">
+     <p class="text-sm font-normal mb-2">
+      Saldo baleni utama
+     </p>
+     <div class="flex items-center text-2xl font-extrabold mb-3">
+      Rp 25.000,00
+      <i class="fas fa-eye-slash ml-3">
+      </i>
+     </div>
+     <hr class="border-[#A67C6A] mb-3"/>
+     <p class="text-sm font-normal flex justify-between items-center cursor-pointer">
+      Semua saldomu
+      <i class="fas fa-chevron-right">
+      </i>
+     </p>
+    </div>
+    <div class="mt-6 bg-[#E6D4C6] rounded-xl p-4 grid grid-cols-4 gap-4 text-[#7A5B4A] font-bold text-center select-none">
+     <a href="/beliPupuk.html" class="bg-white rounded-xl py-4 flex flex-col items-center space-y-2">
+      <img alt="Icon of a seed bag representing Beli pupuk" class="w-10 h-10" height="40" src="https://storage.googleapis.com/a1aa/image/4b8544e8-78db-4a6c-a71b-07a2a78a0032.jpg" width="40"/>
+      <span class="text-xs leading-tight">
+       Beli
+       <br/>
+       pupuk
+      </span>
+    </a>
+     <a href="/beliAyam.html" class="bg-white rounded-xl py-4 flex flex-col items-center space-y-2">
+      <img alt="Icon of a chicken representing Pakan Ayam" class="w-10 h-10" height="40" src="https://storage.googleapis.com/a1aa/image/3248f93b-656b-4301-cf26-0bd79cd44f56.jpg" width="40"/>
+      <span class="text-xs leading-tight">
+       Pakan
+       <br/>
+       Ayam
+      </span>
+    </a>
+     <a href="/beliIkan.html" class="bg-white rounded-xl py-4 flex flex-col items-center space-y-2">
+      <img alt="Icon of a fish representing Pakan Ikan" class="w-10 h-10" height="40" src="https://storage.googleapis.com/a1aa/image/afe4ff2a-430d-41df-8f05-f7d674d7a56a.jpg" width="40"/>
+      <span class="text-xs leading-tight">
+       Pakan
+       <br/>
+       Ikan
+      </span>
+    </a>
+     <a href="/mitraSampah.html" class="bg-white rounded-xl py-4 flex flex-col items-center space-y-2">
+      <img alt="Icon of a person throwing trash representing Mitra sampah" class="w-10 h-10" height="40" src="https://storage.googleapis.com/a1aa/image/d65ac522-7510-406d-9f3c-629c7dc71551.jpg" width="40"/>
+      <span class="text-xs leading-tight">
+       Mitra
+       <br/>
+       sampah
+      </span>
+    </a>
+    </div>
+   </div>
+  </div>
+  <main class="max-w-md mx-auto px-6 mt-8 mb-24">
+   <form aria-label="Search products" class="flex items-center bg-[#E6D4C6] rounded-full px-6 py-3 text-[#7A5B4A] text-lg font-semibold select-none" role="search">
+    <i class="fas fa-search mr-4 text-2xl">
+    </i>
+    <input aria-label="Cari produk" class="bg-transparent placeholder-[#7A5B4A] focus:outline-none w-full" placeholder="Cari produk" type="search"/>
+   </form>
+   <section class="mt-8 bg-[#E6D4C6] rounded-xl p-4 grid grid-cols-4 gap-4 text-[#7A5B4A] font-bold text-center select-none">
+    <button class="bg-white rounded-xl py-4 flex flex-col items-center space-y-2">
+     <img alt="Icon of recycle symbol representing Green Impact" class="w-10 h-10" height="40" src="https://storage.googleapis.com/a1aa/image/9cfd4550-be50-4e4a-6df5-45f918d7157e.jpg" width="40"/>
+     <span class="text-xs leading-tight">
+      Green
+      <br/>
+      Impact
+     </span>
+    </button>
+    <button class="bg-white rounded-xl py-4 flex flex-col items-center space-y-2">
+     <img alt="Icon of arrows representing Transfer" class="w-10 h-10" height="40" src="https://storage.googleapis.com/a1aa/image/01ff5a29-6c21-4d95-cd82-37addd971139.jpg" width="40"/>
+     <span class="text-xs leading-tight">
+      Transfer
+     </span>
+    </button>
+    <button class="bg-white rounded-xl py-4 flex flex-col items-center space-y-2">
+     <img alt="Icon of currency symbol with plus representing Deposit" class="w-10 h-10" height="40" src="https://storage.googleapis.com/a1aa/image/85202e34-d2e5-4004-65f1-75f1e5dfbae3.jpg" width="40"/>
+     <span class="text-xs leading-tight">
+      Deposit
+     </span>
+    </button>
+    <button class="bg-white rounded-xl py-4 flex flex-col items-center space-y-2">
+     <img alt="Icon of hand putting money in box representing Croud Funding" class="w-10 h-10" height="40" src="https://storage.googleapis.com/a1aa/image/d265bc98-70ec-4a43-682f-005622ac9a34.jpg" width="40"/>
+     <span class="text-xs leading-tight">
+      Croud
+      <br/>
+      Funding
+     </span>
+    </button>
+   </section>
+   <article class="mt-6 bg-white rounded-xl p-4 flex space-x-4 items-center select-none">
+    <img alt="Photo of a delivery motorbike with driver wearing helmet and colorful shirt" class="rounded-lg flex-shrink-0 w-28 h-20 object-cover" height="80" src="https://storage.googleapis.com/a1aa/image/92a5adb9-b244-4532-78e6-27e77ccb1be5.jpg" width="120"/>
+    <div class="text-[#7A5B4A] font-semibold text-sm leading-tight">
+     <h2 class="font-bold text-base mb-1">
+      Kode kupon untuk pengguna baru
+     </h2>
+     <p class="font-normal text-sm leading-snug">
+      Segera ambil sebelum terlambat karena batas waktu dua belas jam
+     </p>
+    </div>
+   </article>
+  </main>
+  <nav class="fixed bottom-0 left-0 right-0 bg-[#7A5B4A] text-[#E6D4C6] font-semibold text-sm flex justify-around items-center py-3 select-none">
+   <button aria-current="page" class="flex flex-col items-center space-y-1 text-[#E6D4C6] font-extrabold">
+    <i class="fas fa-home text-xl">
+    </i>
+    <span>
+     Home
+    </span>
+   </button>
+   <a href="/Navbar/aktivitas.html" class="flex flex-col items-center space-y-1">
+    <i class="fas fa-envelope text-xl">
+    </i>
+    <span>
+     Aktifitas
+    </span>
+  </a>
+   <a href="/Navbar/keranjang.html" class="flex flex-col items-center space-y-1">
+    <i class="fas fa-shopping-cart text-xl">
+    </i>
+    <span>
+     Keranjang
+    </span>
+  </a>
+   <a href="/Navbar/akun.html" class="flex flex-col items-center space-y-1">
+    <i class="fas fa-user text-xl">
+    </i>
+    <span>
+     Akun
+    </span>
+  </a>
+  </nav>
+ </body>
+</html>

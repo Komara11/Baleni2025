@@ -1,0 +1,155 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Keranjang
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+  </style>
+ </head>
+ <body class="bg-[#f0e6df] min-h-screen flex flex-col justify-between">
+  <!-- Header -->
+  <header class="bg-[#b5886f] rounded-b-[150px] pt-6 pb-12 relative text-[#f0e6df] flex flex-col items-center">
+   <i class="fas fa-shopping-cart text-5xl mt-2">
+   </i>
+   <h1 class="mt-2 text-2xl font-semibold tracking-widest">
+    Keranjang
+   </h1>
+  </header>
+  <!-- Cart Items -->
+  <main class="px-6 space-y-6 mt-6 mb-6">
+   <!-- Item 1 -->
+   <section class="bg-white rounded-lg p-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+    <div class="flex items-start gap-3">
+     <input checked="" class="w-6 h-6 mt-1 text-[#7a5a44] border-[#7a5a44] rounded" type="checkbox"/>
+     <h2 class="text-[#7a5a44] font-semibold text-lg tracking-widest">
+      Pupuk paket hemat
+     </h2>
+    </div>
+    <div class="flex items-center gap-6 sm:gap-12">
+     <img alt="Five brown paper bags with logo and red 15% discount label on bottom right" class="rounded-sm" height="90" src="https://storage.googleapis.com/a1aa/image/668db14b-c6c7-4abb-557d-631f07770103.jpg" width="160"/>
+     <div class="flex flex-col items-end gap-3">
+      <span class="text-[#7a5a44] font-semibold text-xl">
+       Rp 91.000
+      </span>
+      <div class="flex items-center border border-[#7a5a44] rounded-md px-3 py-1 gap-3 text-[#7a5a44] font-semibold text-lg select-none">
+       <i class="fas fa-trash-alt">
+       </i>
+       <span>
+        1
+       </span>
+       <button aria-label="Add one item" class="text-2xl font-bold leading-none">
+        +
+       </button>
+      </div>
+     </div>
+    </div>
+   </section>
+   <!-- Item 2 -->
+   <section class="bg-white rounded-lg p-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+    <div class="flex items-start gap-3">
+     <input class="w-6 h-6 mt-1 text-[#7a5a44] border-[#7a5a44] rounded" type="checkbox"/>
+     <h2 class="text-[#7a5a44] font-semibold text-lg tracking-widest">
+      Pakan ayam reguler
+     </h2>
+    </div>
+    <div class="flex items-center gap-6 sm:gap-12">
+     <img alt="Three brown paper bags with logo and red 7% discount label on bottom right" class="rounded-sm" height="90" src="https://storage.googleapis.com/a1aa/image/51c67784-de88-4b00-fe2c-6ec196d9e5ed.jpg" width="160"/>
+     <div class="flex flex-col items-end gap-3">
+      <span class="text-[#7a5a44] font-semibold text-xl">
+       Rp 52.999
+      </span>
+      <div class="flex items-center border border-[#7a5a44] rounded-md px-3 py-1 gap-3 text-[#7a5a44] font-semibold text-lg select-none">
+       <i class="fas fa-trash-alt">
+       </i>
+       <span>
+        1
+       </span>
+       <button aria-label="Add one item" class="text-2xl font-bold leading-none">
+        +
+       </button>
+      </div>
+     </div>
+    </div>
+   </section>
+   <!-- Item 3 -->
+   <section class="bg-white rounded-lg p-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+    <div class="flex items-start gap-3">
+     <input checked="" class="w-6 h-6 mt-1 text-[#7a5a44] border-[#7a5a44] rounded" type="checkbox"/>
+     <h2 class="text-[#7a5a44] font-semibold text-lg tracking-widest">
+      Pakan ikan
+     </h2>
+    </div>
+    <div class="flex items-center gap-6 sm:gap-12">
+     <img alt="One brown paper bag with logo" class="rounded-sm" height="90" src="https://storage.googleapis.com/a1aa/image/0066ef38-b23f-430c-f6bd-75c35ebebe91.jpg" width="120"/>
+     <div class="flex flex-col items-end gap-3">
+      <span class="text-[#7a5a44] font-semibold text-xl">
+       Rp 19.900
+      </span>
+      <div class="flex items-center border border-[#7a5a44] rounded-md px-3 py-1 gap-3 text-[#7a5a44] font-semibold text-lg select-none">
+       <i class="fas fa-trash-alt">
+       </i>
+       <span>
+        1
+       </span>
+       <button aria-label="Add one item" class="text-2xl font-bold leading-none">
+        +
+       </button>
+      </div>
+     </div>
+    </div>
+   </section>
+  </main>
+  <!-- Footer -->
+  <footer class="bg-[#b5886f] flex items-center justify-between px-6 py-4 text-[#f0e6df] font-semibold tracking-widest text-lg">
+   <label class="flex items-center gap-3 cursor-pointer select-none">
+    <input class="w-6 h-6 text-[#f0e6df] border-[#f0e6df] rounded" type="checkbox"/>
+    <span>
+     110.900
+    </span>
+   </label>
+   <button class="bg-white text-[#b5886f] font-semibold rounded-lg px-6 py-2 tracking-widest">
+    Beli sekarang
+   </button>
+  </footer>
+  <!-- Bottom Navigation -->
+  <nav class="bg-[#b5886f] flex justify-around py-3 text-[#f0e6df] text-center text-sm font-semibold tracking-widest">
+   <a href="/home.html" class="flex flex-col items-center gap-1">
+    <i class="fas fa-home text-xl">
+    </i>
+    <span>
+     Home
+    </span>
+</a>
+   <a href="/Navbar/aktivitas.html" class="flex flex-col items-center gap-1">
+    <i class="fas fa-envelope text-xl">
+    </i>
+    <span>
+     Aktifitas
+    </span>
+</a>
+   <button class="flex flex-col items-center gap-1 font-bold">
+    <i class="fas fa-shopping-cart text-xl">
+    </i>
+    <span>
+     Keranjang
+    </span>
+   </button>
+   <a href="/Navbar/akun.html" class="flex flex-col items-center gap-1">
+    <i class="fas fa-user text-xl">
+    </i>
+    <span>
+     Akun
+    </span>
+</a>
+  </nav>
+ </body>
+</html>
